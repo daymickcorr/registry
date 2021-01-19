@@ -332,6 +332,22 @@
       },
       "version": "5.75"
     },
+    "cccp": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "/SILENT",
+            "/NOICONS",
+            "/TYPE=MPCOnly"
+          ]
+        },
+        "x86": "http://www.cccp-project.net/download.php?type=cccp32",
+        "x86_64": "http://www.cccp-project.net/download.php?type=cccp64"
+      },
+      "version": "latest"
+    },
     "cdburnerxp": {
       "installer": {
         "kind": "msi",

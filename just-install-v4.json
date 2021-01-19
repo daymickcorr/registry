@@ -334,19 +334,11 @@
     },
     "cccp": {
       "installer": {
-        "kind": "custom",
-        "options": {
-          "arguments": [
-            "{{.installer}}",
-            "/SILENT",
-            "/NOICONS",
-            "/TYPE=MPCOnly"
-          ]
-        },
-        "x86": "http://www.cccp-project.net/download.php?type=cccp32",
-        "x86_64": "http://www.cccp-project.net/download.php?type=cccp64"
+        "kind": "innosetup",
+        "x86": "http://kuroko.fushizen.eu/cccp/Combined-Community-Codec-Pack-2015-10-18.exe",
+        "x86_64": "http://www.cccp-project.net/public/Combined-Community-Codec-Pack-64bit-2015-10-18.exe"
       },
-      "version": "latest"
+      "version": "2015-10-18"
     },
     "cdburnerxp": {
       "installer": {
